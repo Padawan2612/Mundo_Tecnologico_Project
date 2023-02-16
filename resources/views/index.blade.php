@@ -71,27 +71,18 @@
                     <i class="fas fa-percent fa-4x"></i>
                     <h4 class="title_services">Ofertas del Día</h4>
                     <p class="description_services">Ofertas especiales</p><br>
-                    <a href="" class="btn_modal_wel mt-5" data-toggle="modal" data-target=".bd-example-modal-x3">Ver mas</a>
+                    <a href="" class="btn_modal_wel mt-5" data-toggle="modal" data-target=".bd-example-modal-x3">Conocer más</a>
                 </div>
             </div>
         </div>
-        <div class="col-md-3 col-sm-6 mb-3 text-center">
-            <div class="single-content_service">
-                <div class="service">
-                    <i class="fas fa-shopping-cart fa-4x"></i>
-                    <h4 class="title_services">Entrega Inmediata</h4>
-                    <p class="description_services">Servicio de entrega inmediata</p><br>
-                    <a href="" class="btn_modal_wel mt-5" data-toggle="modal" data-target=".bd-example-modal-xl2">Ver mas</a>
-                </div>
-            </div>
-        </div>
+
         <div class="col-md-3 col-sm-6 mb-3 text-center">
             <div class="single-content_service">
                 <div class="service">
                     <i class="fas fa-user-check fa-4x"></i>
                     <h4 class="title_services">Clientes Satisfechos</h4>
-                    <p class="description_services">Nuestros clientes felices con nuestro servicio</p>
-                    <a href="{{ url('/nosotros')}}" class="btn_modal_wel mt-5">Ver mas</a>
+                    <p class="description_services">Clientes satisfechos con nuestro servicio</p>
+                    <a href="{{ url('/nosotros')}}" class="btn_modal_wel mt-5">Conocer más</a>
                 </div>
             </div>
         </div>
@@ -101,7 +92,7 @@
                     <i class="fas fa-thumbs-up fa-4x"></i>
                     <h4 class="title_services">Múltiples Formas de Pago</h4>
                     <p class="description_services">Diferentes tipos de pago</p>
-                    <a href="" class="btn_modal_wel mt-5" data-toggle="modal" data-target=".bd-example-modal-xl">Ver mas</a>
+                    <a href="" class="btn_modal_wel mt-5" data-toggle="modal" data-target=".bd-example-modal-xl">Conocer más</a>
                 </div>
             </div>
         </div>
@@ -115,9 +106,9 @@
             <div class="single-content">
                 <img src="{{ asset('img/categoria/cat1.jpg')}}" alt="Categorias Higienika Oficce Perú">
                 <div class="text-content">
-                    <h3>Eventos</h3>
+                    <h3>Computadoras</h3>
                     <hr class="style2">
-                    <h5>Detalle del evento a realizar</h5>
+                    <h5>Lo mejor en equipos actuales. </h5>
                 </div>
             </div>
         </div>
@@ -125,9 +116,9 @@
             <div class="single-content">
                 <img src="{{ asset('img/categoria/cat2.jpg')}}" alt="Categorias Higienika Oficce Perú">
                 <div class="text-content">
-                    <h3>Artículos de Oficina</h3>
+                    <h3>Ram`s</h3>
                     <hr class="style2">
-                    <h5>Artículos de oficina de las mejores marcas</h5>
+                    <h5>Los mas optimos en el mercado</h5>
                 </div>
             </div>
         </div>
@@ -135,9 +126,9 @@
             <div class="single-content">
                 <img src="{{ asset('img/categoria/cat3.jpg')}}" alt="Categorias Higienika Oficce Perú">
                 <div class="text-content">
-                    <h3>Repuestos De Moviles</h3>
+                    <h3>Perifericos</h3>
                     <hr class="style2">
-                    <h5>Distribuimos Partes y repuestos</h5>
+                    <h5>Articulos para gamers</h5>
                 </div>
             </div>
         </div>
@@ -145,9 +136,9 @@
             <div class="single-content">
                 <img src="{{ asset('img/categoria/cat4.jpg')}}" alt="Categorias Higienika Oficce Perú">
                 <div class="text-content">
-                    <h3>Artículos de Laptops</h3>
+                    <h3>Monitores</h3>
                     <hr class="style2">
-                    <h5>Artículos Laptops de trabajo</h5>
+                    <h5>Accesorios multimedia</h5>
                 </div>
             </div>
         </div>
@@ -175,7 +166,7 @@
             <div class="content">
                 <h1>{{$proveedore->name}}</h1>
                 <hr class="">
-                <h5 style="color: white">En Este segmento puedes poner una descripción de lo mas importante acerca de tus proveedores.</h5>
+                <h5 style="color: white">LOS MEJORES PRODUCTOS LLEGAN A NUSTRA TIENDA GRACIAS AL APOYO DE NUSTROS PROVEEDORES.</h5>
             </div>
             <div class="img">
                 <img src="{{asset('/img/proveedore/'.$proveedore->image)}}" alt="">
@@ -310,7 +301,7 @@
                     <div class="plan">
                       <div class="plan-inner">
                         <div class="entry-title">
-                          <h3>BCP</h3>
+                          <h3>Banco de Guayaquil</h3>
                           <div class="price"><i class="mt-3 fa-2x fas fa-credit-card"></i>
                           </div>
                         </div>
@@ -318,8 +309,7 @@
                           <ul>
                             <li>Número de cuenta</li>
                             <li>******************</li>
-                            <li>N° de cta. interbancaria</li>
-                            <li>*********************</li>
+
                           </ul>
                         </div>
                       </div>
@@ -329,7 +319,7 @@
                     <div class="plan basic">
                       <div class="plan-inner">
                         <div class="entry-title">
-                          <h3>BBVA</h3>
+                          <h3>Banco Pichincha</h3>
                           <div class="price"><i class="mt-3 fa-2x fas fa-credit-card"></i>
                           </div>
                         </div>
@@ -337,31 +327,14 @@
                           <ul>
                             <li>Número de cuenta</li>
                             <li>*******************</li>
-                            <li>N° de cta. interbancaria</li>
-                            <li>**********************</li>
+
                           </ul>
                         </div>
                       </div>
                     </div>
                     <!-- end of price tab-->
                     <!--price tab-->
-                    <div class="plan standard">
-                      <div class="plan-inner">
-                        <div class="entry-title">
-                          <h3>Yape</h3>
-                          <div class="price"><i class="mt-3 fa-2x fas fa-mobile-alt"></i>
-                          </div>
-                        </div>
-                        <div class="entry-content">
-                          <ul>
-                            <li>Número de Billetera Electronica</li>
-                            <li>999 086 095</li>
-                            <li>.</li>
-                            <li>.</li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
+
                     <!-- end of price tab-->
                 </div>
                         </div>

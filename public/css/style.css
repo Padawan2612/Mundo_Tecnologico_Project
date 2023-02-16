@@ -231,7 +231,7 @@ nav ul li a:hover{
 .container_cards{
     width: 100%;
     padding-right: 35px;
-    padding-left: 35px;
+    padding-left: 50px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -252,7 +252,7 @@ nav ul li a:hover{
     width: 250px;
 }
 .service:hover{
-    background-color: #1f93c4a4;
+    background-color: #71cdea98;
     transform: translateY(-3px);
     -webkit-box-shadow: -25px 35px 29px -3px rgba(0,0,0,0.65);
     box-shadow: -25px 35px 29px -3px rgba(0,0,0,0.65);
@@ -275,7 +275,7 @@ nav ul li a:hover{
 }
 .service > i{
     display: block;
-    color: #1f93c4a4;
+    color: #575f63a4;
     font-size: 4rem;
     margin-bottom: 0.9rem;
     transition: color 0.3s ease-out;
@@ -296,7 +296,7 @@ nav ul li a:hover{
 .service:hover > i,
 .service:hover > .description_services,
 .service:hover > .title_services{
-    color: white;
+    color: rgb(5, 5, 5);
 }
 
 .btn_modal_wel{
@@ -865,7 +865,7 @@ textarea.contact_input{
 ************CARTAS DE CATEGORIAS****************
 ************************************************/
 .body_cards{
-    background: white;
+    background: rgb(235, 235, 235);
     padding-top: 60px;
     padding-bottom: 60px;
 }
@@ -884,7 +884,7 @@ textarea.contact_input{
 .single-content::after{
     content: '';
     display: block;
-    background: #0781b6;
+    background: #e8474f;
     top: 20px;
     bottom: 20px;
     opacity: 0;
@@ -966,7 +966,7 @@ textarea.contact_input{
 }
 
 .entry-title {
-    background: #1c74f8;
+    background: #bc4ac4;
     height: 140px;
     position: relative;
     text-align: center;
@@ -975,7 +975,7 @@ textarea.contact_input{
 }
 
 .entry-title>h3 {
-    background: #0064fa;
+    background: #1d1943;
     font-size: 20px;
     padding: 5px 0;
     text-transform: uppercase;
@@ -986,7 +986,7 @@ textarea.contact_input{
 .entry-title .price {
     position: absolute;
     bottom: -25px;
-    background: #0064fa;
+    background: #1d1943;
     height: 95px;
     width: 95px;
     margin: 0 auto;
@@ -1029,15 +1029,15 @@ textarea.contact_input{
 }
 
 .basic .entry-title {
-    background: #75DDD9;
+    background: #e6e62b;
 }
 
 .basic .entry-title > h3 {
-    background: #44CBC6;
+    background: #1d1943;
 }
 
 .basic .price {
-    background: #44CBC6;
+    background: #1d1943;
 }
 
 .standard .entry-title {

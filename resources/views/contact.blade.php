@@ -45,7 +45,7 @@
                 <li><a href="{{ url('/sobrenosotros')}}">EQUIPO DE TRABAJO</a></li>
                 <li><a  href="{{ url('/productos')}}">PRODUCTOS</a></li>
                 <li><a  href="{{ url('/nosotros')}}">NOSOTROS</a></li>
-                
+
                 <li><a href="{{ url('/login')}}">INICIAR SESION</a></li>
             </ul>
         </nav>
