@@ -18,14 +18,7 @@
 <div class="header-top">
     <div class="container d-flex justify-content-between">
         <div class="d-inline-flex ml-auto">
-            <div class="headcont">
-                <i class="fas fa-2x fa-mobile-alt messenge"></i>
-                2886 280 / 0998757288
-            </div>
-            <div class="headcont">
-                <i class="fas fa-2x fa-envelope messenge"></i>
-                gadzambiza@hotmail.com
-            </div>
+
         </div>
     </div>
 </div>
@@ -41,10 +34,10 @@
             <ul>
                 <li><a  href="{{ url('/')}}" >INICIO</a></li>
                 <li><a  href="{{ url('/contact')}}">CONTÁCTENOS</a></li>
-                <li><a class="active" href="{{ url('/sobrenosotros')}}">EQUIPO DE TRABAJO</a></li>
+                <li><a class="active" href="{{ url('/sobrenosotros')}}">CATEGORIAS</a></li>
                 <li><a  href="{{ url('/productos')}}">PRODUCTOS</a></li>
                 <li><a  href="{{ url('/nosotros')}}">NOSOTROS</a></li>
-                
+
                 <li><a href="{{ url('/login')}}">INICIAR SESION</a></li>
             </ul>
         </nav>
@@ -58,8 +51,8 @@
             <div class="row">
                 <div class="col-12">
                     <div class="hero-text">
-                        <h4>GOBIERNO <span>PARROQUIAL</span></h4>
-                        <h1 class="tipeo1">SOBRE NOSOTROS</h1>
+                        <h4>MUNDO <span>TECNOLOGICO</span></h4>
+                        <h1 class="tipeo1">NUESTROS DIFERENTES PRODUCTOS</h1>
                         <h1 class="tipeo2"><span class="type"></span></h1>
                     </div>
                 </div>
@@ -74,7 +67,7 @@
             <br>
             <br>
             <br>
-            <h3>CONOCE MÁS ACERCA DE NUETRO EQUIPO DE TRABAJO</h3><br>
+            <h3>CONOCE ACERCA DE NUESTROS PRODCUTOS MAS DEMANDADOS EN EL MERCADO</h3><br>
             <hr class="style1">
 
 	    </div>
@@ -85,45 +78,41 @@
 <div class="nosotros_body">
 <div class="nosotros_container">
     <div class="nosotros_card">
-        <div class="nosotros_imbBx"  data-text="PRESIDENTE">
+        <div class="nosotros_imbBx"  data-text="CASE">
             <img src="img/presidente.jpg" alt="" width="100%" heigth="100%">
         </div>
         <div class="nosotros_content">
             <div>
-                <h3>PRESIDENTE</h3>
+                <h3>COMPUTADORAS</h3>
                 <p>
-                                    BIOGRAFÍA
-                    Nombre completos: Celio Reinaldo Arias Pilaguano
-                    Nacionalidad: Ecuatoriana
-                    Edad: 61 años
-                    PRIMARIA
-                    Unidad Educativa «Pedro Luis Calero» Zámbiza
-                    SECUNDARIA
-                    Colegio Unión Nacional De Periodistas (UNP)
-                    NIVEL SUPERIOR
-                    Universidad Central Del Ecuador Profesión Psicólogo
+                        NUESTRO PRODUCTO MAS VENDIDO <br>
+                    -COMBO RYZEN 5 5600G <br>
+                    -16 GB RAM <br>
+                    -512 GB SSD <br>
+                    -600W <br>
+
+                    Tarjeta de video Gigabyte 6gb GTX1660
                 </p>
             </div>
         </div>
     </div>
 
     <div class="nosotros_card">
-    <div class="nosotros_imbBx"  data-text="VICEPRESIDENTE">
+    <div class="nosotros_imbBx"  data-text="rams">
             <img src="img/vicepresidente.jpg" alt="" width="100%" heigth="100%">
         </div>
         <div class="nosotros_content">
             <div>
-                <h3>VICEPRESIDENTE</h3>
+                <h3>MEMORIAS RAMS</h3>
                 <p>
-                                BIOGRAFÍA
-                Nombres y Apellidos:Hipolito Javier Lluno Carrera
-                Numero de cedula: 170395619-1
-                Tipo de sangre: A+
-                Profesión: Abogado de los tribunales de justicia y procesal civil
-                Registro profesional 6495 C. A. P. – 17-2002
-                Representante: Comisión de seguridad.
-                Domicilio: Zambiza, cantón Quito, provincia de Pichincha
-                Teléfonos: 2886296 – 0995031650 – O987011901
+                   NUESTRO PRODUCTO MAS VENDIDO <br>
+                32GB (2 x 16GB) Capacity <br>
+                5200 MHz Clock Speed <br>
+                PC5-41600 <br>
+                288-Pin UDIMM <br>
+                1.35V <br>
+                Support for XMP 3.0 <br>
+                RGB Lighting<br>
                 </p>
 
             </div>
@@ -131,40 +120,42 @@
     </div>
 
     <div class="nosotros_card">
-    <div class="nosotros_imbBx"  data-text="VOCAL GADPR">
+    <div class="nosotros_imbBx"  data-text="PERIFERICO">
             <img src="img/vocal1.jpg" alt="" width="100%" heigth="100%">
         </div>
         <div class="nosotros_content">
             <div>
-                <h3>VOCAL GADPR</h3>
+                <h3></h3>
+            <h3>PERIFERICO(TECLADO)</h3>
                 <p>
-                                    BIOGRAFÍA
-                    Lic. en Ciencias de la Educación
-                    mención “Físico- Matemático” en la Universidad Técnica Particular de Loja.
-                    Ejerció como docente del Colegio Particular “Fernando Ortiz Crespo”
-                    Vocal a cargo de la comisión de Educación,
-                    Cultura y Producción en la administración 2014-2019
-                    Actualmente Vocal a cargo de la comisión de Salud, Educación.
-
+                                    NUESTRO PRODUCTO MAS VENDIDO <br>
+                   Teclado para juegos, retroiluminado por LED arcoíris de 9 colores, <br>
+                    107 teclas, teclado con iluminación silenciosa y teclas multimedia.
                 </p>
             </div>
         </div>
     </div>
 
     <div class="nosotros_card">
-    <div class="nosotros_imbBx"  data-text="VOCAL SEGUNDO GADPR">
+    <div class="nosotros_imbBx"  data-text="MONITOR">
             <img src="img/vocal2.jpg" alt="" width="100%" heigth="100%">
         </div>
         <div class="nosotros_content">
             <div>
-            <h3>VOCAL SEGUNDO GADPR</h3>
+            <h3>MONITOR</h3>
                 <p>
-                                    CARGO ACTUAL
-                    Vocal Principal GAD Parroquial de Zámbiza.
-                    COMISIONES A CARGO: Medio Ambiente, Cultura y Producción.
-                    Durante 15 años desempeño en QUITO MOTORS S.A.C.I (Ford Motor Company).
-                    Inicio su carrera dirigencial como presidente del Barrio San Miguel de Cocotog.
-                    Entre los logros obtenidos es trabajar en conjunto con la comunidad para mejorar.
+                                    NUESTRO PRODUCTO MAS VENDIDO <br>
+27 "
+Resolución de la pantalla
+1080p
+Frecuencia de actualización recomendada
+140 Hz
+Frecuencia máxima de actualización
+165 Hz
+Tipo de resolución
+Full HD
+Tipo de pantalla
+LED
                 </p>
             </div>
         </div>
@@ -173,52 +164,43 @@
 </div>
 @endsection
 
+
 @section('footer')
 <footer class="footer">
     <div class="l-footer">
         <!--<img  class="footer_img" src="{{asset('img/JLDIAZ.png')}}" alt="JLDM | Proyectos">-->
-        <h2 style="color: white" class="footer_img">Zámbiza</h2>
-    <p>Es unida, con límites definidos, segura, saludable donde los ciudadanos acceden en igualdad de condiciones a los servicios básicos (energía, agua, saneamiento, salud, educación, tecnología) y a espacios verdes para la recreación.
+        <h2 style="color: white" class="footer_img">MUNDO TECNOLOGICO</h2>
+    <p>Somos una compañía apasionada en lo que hacemos: brindar una excelente atención al cliente, asesoría
+        de primera y venta de productos informáticos de altísima calidad.
     </p>
     </div>
         <ul class="r-footer">
             <li>
-            <h2>Social</h2>
+            <h2>Nuestras redes sociales</h2>
                 <ul class="box">
                     <li class="button_social">
                         <i class="fab mr-2 fa-facebook"></i>
-                        <a href="https://www.linkedin.com/in/jose-diaz-mira/" target="_blank">Facebook</a>
+                        <a href="" target="_blank">Facebook</a>
                     </li>
+
                     <li class="button_social">
-                        <i class="fab mr-2 fa-twitter"></i>
-                        <a href="#">Twitter</a>
+                        <i class="fab mr-2 fa-whatsapp"></i>
+                        <a href="https://chat.whatsapp.com/ILGPFwbdlCdBCEkP9a4G4r" target="_blank">Whatsapp</a>
                     </li>
-                    <li class="button_social">
-                        <i class="fab mr-2 fa-instagram"></i>
-                        <a href="https://www.linkedin.com/in/jose-diaz-mira/" target="_blank">Instagram</a>
-                    </li>
-                    <li class="button_social">
-                        <i class="fab mr-2 fa-linkedin-in"></i>
-                        <a href="https://www.linkedin.com/in/jose-diaz-mira/" target="_blank">Linkedin</a>
-                    </li>
+
+
                 </ul>
             </li>
-            <li class="features">
-            <h2>Información</h2>
-            <ul class="box">
-                <li><a href="#">Políticas de Privacidad</a></li>
-                <li><a href="#">Trabaja con nosotros</a></li>
-            </ul>
-            </li>
+
             <li class="features">
                 <h2>Procedimiento de Pagos</h2>
                 <ul class="box">
-                    <li><a type="button" href="#">Ver mas</a></li>
+                    <li><a type="button" class="btn btn-outline-info"  data-toggle="modal" data-target=".bd-example-modal-xl" href="#">Ver mas</a></li>
                 </ul>
                 </li>
         </ul>
         <div class="b-footer">
-            <p>Todos los Derechos reservados by <a href="https://josediazmirano.github.io/jldiaz/" target="_blank">©GADZAMBIZA-2022</a></p>
+            <p>Todos los Derechos reservados by <a href="" target="_blank">© 2023 MundoTecnologico.</a></p>
         </div>
 </footer>
 @endsection

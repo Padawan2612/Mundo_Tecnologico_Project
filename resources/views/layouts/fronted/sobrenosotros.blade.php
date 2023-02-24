@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
         <title>Equipo de Trabajo-Gobierno Parroquial de Zambiza-2022</title>
 
-        <!-- Fonts--> 
+        <!-- Fonts-->
         <link href="{{asset('css/style.css') }}" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <!-- Styles -->
@@ -25,8 +25,8 @@
             @yield('timespace')
         </div>
         @yield('title')
-        @yield('foda')    
-        @yield('footer') 
+        @yield('foda')
+        @yield('footer')
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script src="{{asset('js/responsive.js') }}"></script>
     <script src="{{asset('js/security.js') }}"></script>
@@ -47,14 +47,9 @@
 			delay:3500,
 			disableOnInteraction:false,
         },
-    });	
+    });
     </script>
     <script src="{{asset('js/typed.js') }}"></script>
-    <script>
-	var typed = new Typed('.type', {
-    strings: ['<span><i class="fas fa-mobile-alt"></i></span> 2886 280 / 0998757288', 
-                '<span><i class="fas fa-mail-bulk"></i></span> gadzambiza@hotmail.com'],
-    typeSpeed:60,backSpeed:60,loop:true});
-    </script>
+    
     </body>
 </html>

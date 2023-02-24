@@ -450,8 +450,8 @@ nav ul li a:hover{
     flex-flow: row wrap;
     padding: 50px;
     color: #fff;
-    background: linear-gradient(0deg, rgba(0,0,0,0.8491771708683473) 26%,
-                rgba(0, 109, 192, 0.808) 53%);
+    background: linear-gradient(0deg, rgba(69, 134, 131, 0.849) 26%,
+                rgba(22, 81, 127, 0.808) 53%);
     background-repeat:no-repeat;
     background-size: 100% 100%;
     background-size: cover;
@@ -504,7 +504,12 @@ h2 {
 
 .b-footer {
     text-align: center;
-    color: #fff;
+    color: #ede6e6;
+    padding-top: 50px;
+}
+.b-footer a {
+    text-align: center;
+    color: #0f0909;
     padding-top: 50px;
 }
 

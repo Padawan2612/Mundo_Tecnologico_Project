@@ -34,8 +34,8 @@
             <ul>
 
                 <li><a href="" class="active">INICIO</a></li>
-                <li><a  href="{{ url('/contact')}}">CONTÁCTENOoS</a></li>
-                <li><a href="{{ url('/sobrenosotros')}}">EQUIPO DE TRABAJO</a></li>
+                <li><a  href="{{ url('/contact')}}">CONTÁCTENOS</a></li>
+                <li><a href="{{ url('/sobrenosotros')}}">CATEGORIAS</a></li>
                 <li><a  href="{{ url('/productos')}}">PRODUCTOS</a></li>
                 <li><a  href="{{ url('/nosotros')}}">NOSOTROS</a></li>
                 <li><a href="{{ url('/login')}}">INICIAR SESION</a></li>
@@ -222,39 +222,29 @@
 <footer class="footer">
     <div class="l-footer">
         <!--<img  class="footer_img" src="{{asset('img/JLDIAZ.png')}}" alt="JLDM | Proyectos">-->
-        <h2 style="color: white" class="footer_img">Zámbiza</h2>
-    <p>Es unida, con límites definidos, segura, saludable donde los ciudadanos acceden en igualdad de condiciones a los servicios básicos (energía, agua, saneamiento, salud, educación, tecnología) y a espacios verdes para la recreación.
+        <h2 style="color: white" class="footer_img">MUNDO TECNOLOGICO</h2>
+    <p>Somos una compañía apasionada en lo que hacemos: brindar una excelente atención al cliente, asesoría
+        de primera y venta de productos informáticos de altísima calidad.
     </p>
     </div>
         <ul class="r-footer">
             <li>
-            <h2>Social</h2>
+            <h2>Nuestras redes sociales</h2>
                 <ul class="box">
                     <li class="button_social">
                         <i class="fab mr-2 fa-facebook"></i>
-                        <a href="https://www.facebook.com/profile.php?id=100064519253506" target="_blank">Facebook</a>
+                        <a href="" target="_blank">Facebook</a>
                     </li>
+
                     <li class="button_social">
-                        <i class="fab mr-2 fa-twitter"></i>
-                        <a href="#">Twitter</a>
+                        <i class="fab mr-2 fa-whatsapp"></i>
+                        <a href="https://chat.whatsapp.com/ILGPFwbdlCdBCEkP9a4G4r" target="_blank">Whatsapp</a>
                     </li>
-                    <li class="button_social">
-                        <i class="fab mr-2 fa-instagram"></i>
-                        <a href="https://www.facebook.com/profile.php?id=100064519253506" target="_blank">Instagram</a>
-                    </li>
-                    <li class="button_social">
-                        <i class="fab mr-2 fa-linkedin-in"></i>
-                        <a href="https://www.facebook.com/profile.php?id=100064519253506" target="_blank">Linkedin</a>
-                    </li>
+
+
                 </ul>
             </li>
-            <li class="features">
-            <h2>Información</h2>
-            <ul class="box">
-                <li><a href="#">Políticas de Privacidad</a></li>
-                <li><a href="#">Trabaja con nosotros</a></li>
-            </ul>
-            </li>
+
             <li class="features">
                 <h2>Procedimiento de Pagos</h2>
                 <ul class="box">
@@ -263,7 +253,7 @@
                 </li>
         </ul>
         <div class="b-footer">
-            <p>Todos los Derechos reservados by <a href="https://www.gadzambiza.gob.ec/" target="_blank">©GAD Zambiza-2022.</a></p>
+            <p>Todos los Derechos reservados by <a href="" target="_blank">© 2023 MundoTecnologico.</a></p>
         </div>
 </footer>
 @endsection
