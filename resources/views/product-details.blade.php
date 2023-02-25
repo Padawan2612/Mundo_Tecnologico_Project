@@ -20,11 +20,9 @@
         <div class="d-inline-flex ml-auto">
             <div class="headcont">
                 <i class="fas fa-2x fa-mobile-alt messenge"></i>
-                2886 280 / 0998757288
             </div>
             <div class="headcont">
                 <i class="fas fa-2x fa-envelope messenge"></i>
-                gadzambiza@hotmail.com
             </div>
         </div>
     </div>
@@ -38,17 +36,17 @@
     </a>
     <div class="menu-toggle" ></div>
     <nav>
-            <ul>
+        
+        <ul>
 
-                <li><a  href="{{ url('/')}}" >INICIO</a></li>
-                <li><a  href="{{ url('/contact')}}">CONTÁCTENOS</a></li>
-                <li><a href="{{ url('/sobrenosotros')}}">EQUIPO DE TRABAJO</a></li>
-                <li><a  href="{{ url('/productos')}}">PRODUCTOS</a></li>
-                <li><a  href="{{ url('/nosotros')}}">NOSOTROS</a></li>
-                
-                <li><a href="{{ url('/login')}}">INICIAR SESION</a></li>
+            <li><a  href="{{ url('/')}}" >INICIO</a></li>
+            <li><a  href="{{ url('/contact')}}">CONTÁCTENOS</a></li>
+            <li><a href="{{ url('/sobrenosotros')}}">CATEGORIAS</a></li>
+            <li><a  href="{{ url('/productos')}}">PRODUCTOS</a></li>
+            <li><a  href="{{ url('/nosotros')}}">NOSOTROS</a></li>
+            <li><a href="{{ url('/login')}}">INICIAR SESION</a></li>
 
-            </ul>
+        </ul>
         </nav>
         <div class="clearfix"></div>
     </header>
@@ -59,7 +57,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="hero-text">
-                        <h4>PAGINA <span>WEB</span></h4>
+                        <h4>MUNDO-<span>TECNOLOGICO</span></h4>
 					    <br>
                         <br>
                         <h1 class="tipeo1">DESCRIPCIÓN:</h1>
@@ -118,53 +116,45 @@
 </div>
 @endsection
 
+@endsection
+
+
 @section('footer')
 <footer class="footer">
     <div class="l-footer">
         <!--<img  class="footer_img" src="{{asset('img/JLDIAZ.png')}}" alt="JLDM | Proyectos">-->
-        <h2 style="color: white" class="footer_img">JLDM</h2>
-    <p>Hola Soy JLDIAZ diseñador web esta pagina web esta totalmente gratis para que puedan implementar a algun proyecto universitario la unica de
-        condicon de uso es que mejoren algo a esta pagina web para que asi fortalezcan sus conocimientos.
+        <h2 style="color: white" class="footer_img">MUNDO TECNOLOGICO</h2>
+    <p>Somos una compañía apasionada en lo que hacemos: brindar una excelente atención al cliente, asesoría
+        de primera y venta de productos informáticos de altísima calidad.
     </p>
     </div>
         <ul class="r-footer">
             <li>
-            <h2>Social</h2>
+            <h2>Nuestras redes sociales</h2>
                 <ul class="box">
                     <li class="button_social">
                         <i class="fab mr-2 fa-facebook"></i>
-                        <a href="https://www.linkedin.com/in/jose-diaz-mira/" target="_blank">Facebook</a>
+                        <a href="" target="_blank">Facebook</a>
                     </li>
+
                     <li class="button_social">
-                        <i class="fab mr-2 fa-twitter"></i>
-                        <a href="#">Twitter</a>
+                        <i class="fab mr-2 fa-whatsapp"></i>
+                        <a href="https://chat.whatsapp.com/ILGPFwbdlCdBCEkP9a4G4r" target="_blank">Whatsapp</a>
                     </li>
-                    <li class="button_social">
-                        <i class="fab mr-2 fa-instagram"></i>
-                        <a href="https://www.linkedin.com/in/jose-diaz-mira/" target="_blank">Instagram</a>
-                    </li>
-                    <li class="button_social">
-                        <i class="fab mr-2 fa-linkedin-in"></i>
-                        <a href="https://www.linkedin.com/in/jose-diaz-mira/" target="_blank">Linkedin</a>
-                    </li>
+
+
                 </ul>
             </li>
-            <li class="features">
-            <h2>Información</h2>
-            <ul class="box">
-                <li><a href="#">Políticas de Privacidad</a></li>
-                <li><a href="#">Trabaja con nosotros</a></li>
-            </ul>
-            </li>
+
             <li class="features">
                 <h2>Procedimiento de Pagos</h2>
                 <ul class="box">
-                    <li><a type="button" href="#">Ver mas</a></li>
+                    <li><a type="button" class="btn btn-outline-info"  data-toggle="modal" data-target=".bd-example-modal-xl" href="#">Ver mas</a></li>
                 </ul>
                 </li>
         </ul>
         <div class="b-footer">
-            <p>Todos los Derechos reservados by <a href="https://www.gadzambiza.gob.ec/" target="_blank">©JLDIAZ-2020</a></p>
+            <p>Todos los Derechos reservados by <a href="" target="_blank">© 2023 MundoTecnologico.</a></p>
         </div>
 </footer>
 @endsection

@@ -31,15 +31,14 @@
     </a>
     <div class="menu-toggle" ></div>
     <nav>
-            <ul>
-                <li><a  href="{{ url('/')}}" >INICIO</a></li>
-                <li><a  href="{{ url('/contact')}}">CONTÁCTENOS</a></li>
-                <li><a class="active" href="{{ url('/sobrenosotros')}}">CATEGORIAS</a></li>
-                <li><a  href="{{ url('/productos')}}">PRODUCTOS</a></li>
-                <li><a  href="{{ url('/nosotros')}}">NOSOTROS</a></li>
-
-                <li><a href="{{ url('/login')}}">INICIAR SESION</a></li>
-            </ul>
+        <ul>
+            <li><a  href="{{ url('/')}}" >INICIO</a></li>
+            <li><a  href="{{ url('/contact')}}">CONTÁCTENOS</a></li>
+            <li><a class="active" href="{{ url('/sobrenosotros')}}">CATEGORIAS</a></li>
+            <li><a  href="{{ url('/productos')}}">PRODUCTOS</a></li>
+            <li><a  href="{{ url('/nosotros')}}">NOSOTROS</a></li>
+            <li><a href="{{ url('/login')}}">INICIAR SESION</a></li>
+        </ul>
         </nav>
         <div class="clearfix"></div>
     </header>
@@ -51,8 +50,8 @@
             <div class="row">
                 <div class="col-12">
                     <div class="hero-text">
-                        <h4>MUNDO <span>TECNOLOGICO</span></h4>
-                        <h1 class="tipeo1">NUESTROS DIFERENTES PRODUCTOS</h1>
+                        <h4>MUNDO-<span>TECNOLOGICO</span></h4>
+                        <h1 class="tipeo1">NUESTRAS DIFERENTES CATEGORIAS</h1>
                         <h1 class="tipeo2"><span class="type"></span></h1>
                     </div>
                 </div>

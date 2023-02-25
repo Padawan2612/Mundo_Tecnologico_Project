@@ -31,16 +31,16 @@
     </a>
     <div class="menu-toggle" ></div>
     <nav>
-            <ul>
+        <ul>
 
-                <li><a href="" class="active">INICIO</a></li>
-                <li><a  href="{{ url('/contact')}}">CONTÁCTENOS</a></li>
-                <li><a href="{{ url('/sobrenosotros')}}">CATEGORIAS</a></li>
-                <li><a  href="{{ url('/productos')}}">PRODUCTOS</a></li>
-                <li><a  href="{{ url('/nosotros')}}">NOSOTROS</a></li>
-                <li><a href="{{ url('/login')}}">INICIAR SESION</a></li>
+            <li><a href="" class="active">INICIO</a></li>
+            <li><a  href="{{ url('/contact')}}">CONTÁCTENOS</a></li>
+            <li><a href="{{ url('/sobrenosotros')}}">CATEGORIAS</a></li>
+            <li><a  href="{{ url('/productos')}}">PRODUCTOS</a></li>
+            <li><a  href="{{ url('/nosotros')}}">NOSOTROS</a></li>
+            <li><a href="{{ url('/login')}}">INICIAR SESION</a></li>
 
-            </ul>
+        </ul>
         </nav>
         <div class="clearfix"></div>
     </header>

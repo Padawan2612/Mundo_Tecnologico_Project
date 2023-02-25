@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        <title>Contáctanos-Gobierno Parroquial de Zambiza-2022</title>
+        <title>Contáctanos-Mundo Tecnologico</title>
 
         <!-- Fonts-->
         <link href="{{asset('css/style.css') }}" rel="stylesheet">

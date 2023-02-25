@@ -9,7 +9,7 @@
 
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
 	    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
-        <title>Detalle de Servicio-Gobierno Parroquial de Zambiza-2022</title>
+        <title>Detalle de Servicio-Mundo Tecnologico</title>
 
         <!-- Fonts--> 
         <link href="{{asset('css/style.css') }}" rel="stylesheet">
