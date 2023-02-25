@@ -8,8 +8,10 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
         <title>Nosotros-Mundo Tecnologico</title>
+        <link rel="shortcut icon"type="imagen/x-icon"href="img/logo.jpg">
+	    <link rel="stylesheet"  href="CSS/estilos.css">
 
-        <!-- Fonts--> 
+        <!-- Fonts-->
         <link href="{{asset('css/style.css') }}" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <!-- Styles -->
@@ -29,8 +31,8 @@
             @yield('clientes')
         </div>
         @yield('title2')
-        @yield('foda')    
-        @yield('footer') 
+        @yield('foda')
+        @yield('footer')
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script src="{{asset('js/responsive.js') }}"></script>
     <script src="{{asset('js/security.js') }}"></script>
@@ -51,12 +53,12 @@
 			delay:3500,
 			disableOnInteraction:false,
         },
-    });	
+    });
     </script>
     <script src="{{asset('js/typed.js') }}"></script>
     <script>
 	var typed = new Typed('.type', {
-    strings: ['<span><i class="fas fa-mobile-alt"></i></span> 0969651205/ 0968614467', 
+    strings: ['<span><i class="fas fa-mobile-alt"></i></span> 0969651205/ 0968614467',
                 '<span><i class="fas fa-mail-bulk"></i></span> mundotec2023@gmail.com'],
     typeSpeed:60,backSpeed:60,loop:true});
     </script>
