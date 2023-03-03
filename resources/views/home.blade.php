@@ -34,7 +34,8 @@
                     <div class="icon">
                         <i class="fas fa-users"></i>
                     </div>
-                    <a href="#" class="small-box-footer">Más info <i class="fas fa-arrow-circle-right"></i></a>
+                    <a href="http://127.0.0.1:8000/usuarios"class="small-box-footer">Más info <i class="fas fa-arrow-circle-right"></i></a>
+
                 </div>
             </div>
             <!-- ./col -->
@@ -49,7 +50,7 @@
                     <div class="icon">
                         <i class="fas fa-cash-register"></i>
                     </div>
-                    <a href="#" class="small-box-footer">Más info <i class="fas fa-arrow-circle-right"></i></a>
+                    <a href="http://127.0.0.1:8000/ofertas/todas"class="small-box-footer">Más info <i class="fas fa-arrow-circle-right"></i></a>
                 </div>
             </div>
             <!-- ./col -->
@@ -64,7 +65,7 @@
                     <div class="icon">
                         <i class="fas fa-box-open"></i>
                     </div>
-                    <a href="#" class="small-box-footer">Más info <i class="fas fa-arrow-circle-right"></i></a>
+                    <a href="http://127.0.0.1:8000/producto"class="small-box-footer">Más info <i class="fas fa-arrow-circle-right"></i></a>
                 </div>
             </div>
             <!-- ./col -->
@@ -78,7 +79,7 @@
                     <div class="icon">
                         <i class="fas fa-street-view"></i>
                     </div>
-                    <a href="#" class="small-box-footer">Más info <i class="fas fa-arrow-circle-right"></i></a>
+                    <a href="http://127.0.0.1:8000/clientes/todas"class="small-box-footer">Más info <i class="fas fa-arrow-circle-right"></i></a>
                 </div>
             </div>
             <!-- ./col -->
