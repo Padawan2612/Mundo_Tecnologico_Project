@@ -6,10 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="shortcut icon" type="imagenes" href="{{asset('img/favicon.ico')}}">
     <link href="{{asset('css/backend.css') }}" rel="stylesheet">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
-    <title>GadZambiza|Login</title>
+    <title>MUNDO TECNOLOGICO-LOGIN</title>
+    <link rel="shortcut icon"type="imagen/x-icon"href="img/logo.jpg">
+	<link rel="stylesheet"  href="CSS/estilos.css">
   </head>
   <body >
   <section id="headerSection_nosotros">

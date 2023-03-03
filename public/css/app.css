@@ -545,7 +545,7 @@ a > code {
 kbd {
   padding: 0.2rem 0.4rem;
   font-size: 87.5%;
-  color: #fff;
+  color: #311010;
   background-color: #212529;
   border-radius: 0.2rem;
 }
@@ -10717,6 +10717,9 @@ a.text-success:focus {
 
 .text-info {
   color: #6cb2eb !important;
+}
+#letra{
+    background-color: #000;
 }
 
 a.text-info:hover,

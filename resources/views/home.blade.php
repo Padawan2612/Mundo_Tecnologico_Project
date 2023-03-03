@@ -72,7 +72,7 @@
                 <!-- small box -->
                 <div class="small-box bg-danger">
                     <div class="inner">
-                        <h3>{{$cons_clientes}}</h3> 
+                        <h3>{{$cons_clientes}}</h3>
                         <p>Clientes</p>
                     </div>
                     <div class="icon">
@@ -89,14 +89,14 @@
             <div class="col-md-8">
                 <div class="card">
                     <div class="card-header">{{ __('Dashboard') }}</div>
-    
+
                     <div class="card-body">
                         @if (session('status'))
                             <div class="alert alert-success" role="alert">
                                 {{ session('status') }}
                             </div>
                         @endif
-    
+
                         Hola: {{ Auth::user()->name }} Has Iniciado Sesion de manera correcta
                     </div>
                 </div>

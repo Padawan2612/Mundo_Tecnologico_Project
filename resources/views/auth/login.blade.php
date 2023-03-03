@@ -80,23 +80,23 @@
 
             <div class="contactos_info">
                 <div class="contact_information">
-                    <i class="fas fa-2x fa-user"></i>
-                    <p>gadzambiza@hotmail.com</p>
+                    <i class="fas fa-2x fa-users"></i>
+                    <p>mundotec2023@gmail.com</p>
                 </div>
                 <div class="contact_information">
-                    <i class="fas fa-2x fa-user"></i>
+                    <i class="fas fa-2x fa-users"></i>
                     <p>2886 280</p>
                 </div>
                 <div class="contact_information">
-                    <i class="fas fa-2x fa-user"></i>
-                    <p>0998757288</p>
+                    <i class="fas fa-2x fa-users"></i>
+                    <p>0968614467</p>
                 </div>
             </div>
             <div class="social_media">
-                <p>Att:</p>
+
                 <div class="social-icons">
                         <img src="{{asset('img/favicon_higienika_office_per.png')}}" alt="">
-                        <p>Gobierno Parroquial de Zámbiza</p>
+                        <p>MUNDO TECNOLOGICO </p>
                 </div>
             </div>
         </div>
@@ -119,7 +119,7 @@
                 <input type="submit" value="LogIn" class="contact_btn">
                     <div class="form-group row mb-0">
                                 @if (Route::has('password.request'))
-                                    <a class="btn btn-link" href="{{ route('password.request') }}">
+                                    <a  class="btn btn-link" class="boton" href="{{ route('password.request') }}">
                                         {{ __('¿Olvidaste tu contraseña?') }}
                                     </a>
                                 @endif
@@ -128,4 +128,4 @@
         </div>
     </div>
 </div>
-@endsection 
+@endsection
