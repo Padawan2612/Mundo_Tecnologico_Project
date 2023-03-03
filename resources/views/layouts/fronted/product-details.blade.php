@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">
@@ -10,8 +10,10 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
 	    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
         <title>Detalle de Servicio-Mundo Tecnologico</title>
+        <link rel="shortcut icon"type="imagen/x-icon"href="img/logo.jpg">
+	    <link rel="stylesheet"  href="CSS/estilos.css">
 
-        <!-- Fonts--> 
+        <!-- Fonts-->
         <link href="{{asset('css/style.css') }}" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <!-- Styles -->

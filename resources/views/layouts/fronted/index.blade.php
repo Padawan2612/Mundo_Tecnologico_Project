@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" type="imagenes" href="{{asset('img/favicon.ico')}}">
     <title>MUNDO TECNOLOGICO</title>
+    <link rel="shortcut icon"type="imagen/x-icon"href="img/logo.jpg">
+	<link rel="stylesheet"  href="CSS/estilos.css">
 
     <!--LINNK-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">

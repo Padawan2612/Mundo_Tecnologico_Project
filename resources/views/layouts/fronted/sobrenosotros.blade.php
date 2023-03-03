@@ -8,6 +8,8 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
         <title>Categorias-Mundo Tecnologico</title>
+        <link rel="shortcut icon"type="imagen/x-icon"href="img/logo.jpg">
+	    <link rel="stylesheet"  href="CSS/estilos.css">
 
         <!-- Fonts-->
         <link href="{{asset('css/style.css') }}" rel="stylesheet">
@@ -50,6 +52,6 @@
     });
     </script>
     <script src="{{asset('js/typed.js') }}"></script>
-    
+
     </body>
 </html>

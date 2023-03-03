@@ -7,7 +7,9 @@
     <link rel="shortcut icon" type="imagenes" href="{{asset('img/favicon.ico')}}">
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>GadZambiza|Panel administrativo</title>
+    <title>PANEL ADMINISTRATIVO</title>
+    <link rel="shortcut icon"type="imagen/x-icon"href="img/logo.jpg">
+	<link rel="stylesheet"  href="CSS/estilos.css">
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
@@ -69,13 +71,13 @@
                             <i class="fas fa-power-off"></i>
                         </a>
                         <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
-                            
+
                             <a class="" href="{{ route('logout') }}" onclick="event.preventDefault();
                                             document.getElementById('logout-form').submit();">
                                     <button type="button" class="btn btn-outline-danger btn-lg btn-block">Cerrar Sesión</button>
-                                </a> 
+                                </a>
                             <div class="dropdown-divider"></div>
-                            
+
                         </div>
                     </li>
                 </ul>
@@ -83,12 +85,12 @@
             <!-- /.navbar -->
 
             <!-- Main Sidebar Container -->
-            <aside class="main-sidebar bg-light elevation-4">
+            <aside class="main-sidebar bg-dark elevation-4">
                 <!-- Brand Logo -->
                 <a href="{{ url('/') }}" class="brand-link">
-                    <img src="img/zambiza.png" alt="GAD ZAMBIZA logo" class="brand-image img-circle"
-                        style="opacity: .8">
-                    <span class="brand-text font-weight-light">GAD Zambiza</span>
+
+
+                    <span class="brand-text font-weight-light">ADMINISTRACIÓN</span>
                 </a>
 
                 <!-- Sidebar -->
@@ -104,10 +106,6 @@
                                 <a class="nav-link" href="{{ route('login') }}">{{ __('Iniciar Sesión') }}</a>
                                 @else
                                 {{ Auth::user()->name }}
-                                <a class="" href="{{ route('logout') }}" onclick="event.preventDefault();
-                                            document.getElementById('logout-form').submit();">
-                                    <button type="button" class="btn btn-outline-danger">Cerrar Sesión</button>
-                                </a> 
 
                                 <form id="logout-form" action="{{ route('logout') }}" method="POST"
                                     style="display: none;">
@@ -125,7 +123,7 @@
 
                             <li class="nav-item">
                                 <a href="{{url('home')}}" class="{{ Request::path() === '/home' ? 'nav-link active' : 'nav-link' }}">
-                                    <i class="text-info  fas fa-home"></i>
+                                    <i class="text-info  fas fa-university"></i>
                                     <p>Inicio</p>
                                 </a>
                             </li>
@@ -152,10 +150,10 @@
                                     class="{{ Request::path() === 'roles' ? 'nav-link active' : 'nav-link' }}">
                                     <i class="text-info fas fa-user-tag"></i>
                                     <p>
-                                        Roles    
+                                        Roles
                                     </p>
                                 </a>
-                            </li> 
+                            </li>
 
                             <li class="nav-item admin">
                                 <a href="{{url('clientes/todas')}}"
@@ -209,7 +207,28 @@
                                 </a>
                             </li>
 
-                            @endcan 
+                            <li class="nav-item admin">
+                                <a href="{{url('ofertas/todas')}}"
+                                    class="{{ Request::path() === 'ofertas/todas' ? 'nav-link active' : 'nav-link' }}">
+                                    <i class="fas fa-user-friends"></i>
+                                    <p>
+                                        Ofertas del dia
+                                    </p>
+                                </a>
+                            </li>
+
+                            <li class="nav-item admin">
+                                <a href="{{url('clientes/todas')}}"
+                                    class="{{ Request::path() === 'clientes/todas' ? 'nav-link active' : 'nav-link' }}">
+                                    <i class="fas fa-user-friends"></i>
+                                    <p>
+                                        clientes
+                                    </p>
+                                </a>
+                            </li>
+                            
+
+                            @endcan
                             @can('personal')
                             <li class="nav-item admin">
                                 <a href="{{url('ofertas/todas')}}"
@@ -230,7 +249,7 @@
                                     </p>
                                 </a>
                             </li>
-                            @endcan 
+                            @endcan
                         </ul>
                     </nav>
                     <!-- /.sidebar-menu -->
@@ -252,7 +271,7 @@
             <!-- /.content-wrapper -->
             <footer class="main-footer">
                 <!-- NO QUITAR -->
-                <strong> GAD ZAMBIZA
+                <strong> MUNDO TECNOLOGICO
                     <div class="float-right d-none d-sm-inline-block">
                         <b>Version</b> 1.0
                     </div>
@@ -269,6 +288,6 @@
     <script>
         function countChars(obj){
         document.getElementById("charNum").innerHTML = obj.value.length+' caracteres';}
-    </script>    
+    </script>
 </body>
 </html>
