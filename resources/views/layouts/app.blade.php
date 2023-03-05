@@ -69,13 +69,13 @@
                             <i class="fas fa-power-off"></i>
                         </a>
                         <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
-                            
+
                             <a class="" href="{{ route('logout') }}" onclick="event.preventDefault();
                                             document.getElementById('logout-form').submit();">
                                     <button type="button" class="btn btn-outline-danger btn-lg btn-block">Cerrar Sesión</button>
-                                </a> 
+                                </a>
                             <div class="dropdown-divider"></div>
-                            
+
                         </div>
                     </li>
                 </ul>
@@ -83,11 +83,11 @@
             <!-- /.navbar -->
 
             <!-- Main Sidebar Container -->
-            <aside class="main-sidebar bg-light elevation-4">
+            <aside class="main-sidebar bg-dark elevation-4">
                 <!-- Brand Logo -->
                 <a href="{{ url('/') }}" class="brand-link">
-                
-                    <span class="brand-text font-weight-light">ADMINISTRACIÓN</span>
+
+                    <span class="brand-text font-weight-dark">ADMINISTRACIÓN</span>
                 </a>
 
                 <!-- Sidebar -->
@@ -105,8 +105,8 @@
                                 {{ Auth::user()->name }}
                                 <a class="" href="{{ route('logout') }}" onclick="event.preventDefault();
                                             document.getElementById('logout-form').submit();">
-                                    
-                                </a> 
+
+                                </a>
 
                                 <form id="logout-form" action="{{ route('logout') }}" method="POST"
                                     style="display: none;">
@@ -146,10 +146,10 @@
                                     class="{{ Request::path() === 'roles' ? 'nav-link active' : 'nav-link' }}">
                                     <i class="text-info fas fa-user-tag"></i>
                                     <p>
-                                        Roles    
+                                        Roles
                                     </p>
                                 </a>
-                            </li> 
+                            </li>
 
                             <li class="nav-item admin">
                                 <a href="{{url('clientes/todas')}}"
@@ -224,10 +224,10 @@
                                     class="{{ Request::path() === 'roles' ? 'nav-link active' : 'nav-link' }}">
                                     <i class="text-info fas fa-user-tag"></i>
                                     <p>
-                                        Roles    
+                                        Roles
                                     </p>
                                 </a>
-                            </li> 
+                            </li>
 
                             <li class="nav-item admin">
                                 <a href="{{url('clientes/todas')}}"
@@ -300,9 +300,9 @@
                                     </p>
                                 </a>
                             </li>
-                            
 
-                            @endcan 
+
+                            @endcan
                             @can('personal')
                             <li class="nav-item admin">
                                 <a href="{{url('ofertas/todas')}}"
@@ -323,7 +323,7 @@
                                     </p>
                                 </a>
                             </li>
-                            @endcan 
+                            @endcan
                         </ul>
                     </nav>
                     <!-- /.sidebar-menu -->
@@ -362,6 +362,6 @@
     <script>
         function countChars(obj){
         document.getElementById("charNum").innerHTML = obj.value.length+' caracteres';}
-    </script>    
+    </script>
 </body>
 </html>
