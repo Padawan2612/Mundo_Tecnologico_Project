@@ -201,7 +201,7 @@
                                     </p>
                                 </a>
                             </li> <br> <br> <br> <br> <br> <br>
-                            
+
 
 
 
@@ -437,206 +437,17 @@
                             <i class="fas fa-power-off"></i>
                         </a>
                         <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
-                            
+
                             <a class="" href="{{ route('logout') }}" onclick="event.preventDefault();
                                             document.getElementById('logout-form').submit();">
                                     <button type="button" class="btn btn-outline-danger btn-lg btn-block">Cerrar Sesión</button>
-                                </a> 
+                                </a>
                             <div class="dropdown-divider"></div>
-                            
+
                         </div>
                     </li>
                 </ul>
             </nav>
             <!-- /.navbar -->
 
-            <!-- Main Sidebar Container -->
-            <aside class="main-sidebar bg-light elevation-4">
-                <!-- Brand Logo -->
-                <a href="{{ url('/') }}" class="brand-link">
-                    <img src="img/zambiza.png" alt="GAD ZAMBIZA logo" class="brand-image img-circle"
-                        style="opacity: .8">
-                    <span class="brand-text font-weight-light">GAD Zambiza</span>
-                </a>
-
-                <!-- Sidebar -->
-                <div class="sidebar">
-                    <!-- Sidebar user panel (optional) -->
-                    <div class="user-panel mt-3 pb-3 mb-3 d-flex">
-                        <div class="image">
-                            <img src="{{ asset('dist/img/avatar5.png')}}" class="img-circle elevation-2" alt="User Image">
-                        </div>
-                        <div class="info">
-                            <a href="#" class="d-block">
-                                @guest
-                                <a class="nav-link" href="{{ route('login') }}">{{ __('Iniciar Sesión') }}</a>
-                                @else
-                                {{ Auth::user()->name }}
-                                <a class="" href="{{ route('logout') }}" onclick="event.preventDefault();
-                                            document.getElementById('logout-form').submit();">
-                                    <button type="button" class="btn btn-outline-danger">Cerrar Sesión</button>
-                                </a> 
-
-                                <form id="logout-form" action="{{ route('logout') }}" method="POST"
-                                    style="display: none;">
-                                    @csrf
-                                </form>
-                                @endguest
-                            </a>
-                        </div>
-                    </div>
-
-                    <!-- Sidebar Menu -->
-                    <nav class="mt-2">
-                        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu"
-                            data-accordion="false">
-
-                            <li class="nav-item">
-                                <a href="{{url('home')}}" class="{{ Request::path() === '/home' ? 'nav-link active' : 'nav-link' }}">
-                                    <i class="text-info  fas fa-home"></i>
-                                    <p>Inicio</p>
-                                </a>
-                            </li>
-
-
-
-
-
-                            @can('administrador')
-                            <li class="nav-item">
-                                <a href="{{url('usuarios')}}"
-                                    class="{{ Request::path() === 'usuarios' ? 'nav-link active ' : 'nav-link' }}">
-                                    <i class="text-info  fas fa-users"></i>
-                                    <p>
-                                        Usuarios
-                                        <?php $users_count = DB::table('users')->count(); ?>
-                                        <span class="right badge badge-danger">{{ $users_count ?? '0' }}</span>
-                                    </p>
-                                </a>
-                            </li>
-
-                            <li class="nav-item admin">
-                                <a href="{{url('roles')}}"
-                                    class="{{ Request::path() === 'roles' ? 'nav-link active' : 'nav-link' }}">
-                                    <i class="text-info fas fa-user-tag"></i>
-                                    <p>
-                                        Roles    
-                                    </p>
-                                </a>
-                            </li> 
-
-                            <li class="nav-item admin">
-                                <a href="{{url('clientes/todas')}}"
-                                    class="{{ Request::path() === 'clientes/todas' ? 'nav-link active' : 'nav-link' }}">
-                                    <i class="text-info fas fa-user-tag"></i>
-                                    <p>
-                                        Clientes    
-                                    </p>
-                                </a>
-                            </li> 
-
-                            <li class="nav-item admin">
-                                <a href="{{url('proveedores')}}"
-                                    class="{{ Request::path() === 'proveedores' ? 'nav-link active' : 'nav-link' }}">
-                                    <i class="text-info fas fa-user-friends"></i>
-                                    <p>
-                                        Proveedores
-                                    </p>
-                                </a>
-                            </li>
-
-                            <li class="nav-item admin">
-                                <a href="{{url('ofertas/todas')}}"
-                                    class="{{ Request::path() === 'ofertas/todas' ? 'nav-link active' : 'nav-link' }}">
-                                    <i class="text-info fas fa-star"></i>
-                                    <p>
-                                        Oferta del dia
-                                    </p>
-                                </a>
-                            </li>
-
-                            <li class="nav-item admin">
-                                <a href="{{url('Categorias')}}"
-                                    class="{{ Request::path() === 'Categorias' ? 'nav-link active' : 'nav-link' }}">
-                                    <i class="text-info fas fa-shopping-bag"></i>
-                                    <p>
-                                    Categorias de Producto
-                                    </p>
-                                </a>
-                            </li>
-
-                            <li class="nav-item admin">
-                                <a href="{{url('producto')}}"
-                                    class="{{ Request::path() === 'producto' ? 'nav-link active' : 'nav-link' }}">
-                                    <i class="text-info fas fa-shopping-basket"></i>
-                                    <p>
-                                    Productos
-                                    <?php $product_count = DB::table('productos')->count(); ?>
-                                        <span class="right badge badge-danger">{{ $product_count ?? '0' }}</span>
-                                    </p>
-                                </a>
-                            </li>
-
-                            @endcan 
-                            @can('personal')
-                            <li class="nav-item admin">
-                                <a href="{{url('ofertas/todas')}}"
-                                    class="{{ Request::path() === 'ofertas/todas' ? 'nav-link active' : 'nav-link' }}">
-                                    <i class="fas fa-user-friends"></i>
-                                    <p>
-                                        Ofertas del dia
-                                    </p>
-                                </a>
-                            </li>
-
-                            <li class="nav-item admin">
-                                <a href="{{url('clientes/todas')}}"
-                                    class="{{ Request::path() === 'clientes/todas' ? 'nav-link active' : 'nav-link' }}">
-                                    <i class="fas fa-user-friends"></i>
-                                    <p>
-                                        clientes
-                                    </p>
-                                </a>
-                            </li>
-                            @endcan 
-                        </ul>
-                    </nav>
-                    <!-- /.sidebar-menu -->
-                </div>
-                <!-- /.sidebar -->
-            </aside>
-
-            <!-- Content Wrapper. Contains page content -->
-            <div class="content-wrapper mt-6" style="background: white">
-            <section class="content">
-                    @yield('content')
-                </section>
-                <!-- Main content -->
-                <section class="content">
-                    @yield('contentUsu')
-                </section>
-                <!-- /.content -->
-            </div>
-            <!-- /.content-wrapper -->
-            <footer class="main-footer">
-                <!-- NO QUITAR -->
-                <strong> GAD ZAMBIZA
-                    <div class="float-right d-none d-sm-inline-block">
-                        <b>Version</b> 1.0
-                    </div>
-            </footer>
-
-            <!-- Control Sidebar -->
-            <aside class="control-sidebar control-sidebar-dark">
-            <h1>Hola que hace</h1>
-            </aside>
-            <!-- /.control-sidebar -->
-        </div>
-    </div>
-    <script src="{{asset('js/responsive.js') }}"></script>
-    <script>
-        function countChars(obj){
-        document.getElementById("charNum").innerHTML = obj.value.length+' caracteres';}
-    </script>    
-</body>
-</html>
+            
