@@ -90,7 +90,7 @@
   @section('footer')
   <footer class="footer">
       <div class="l-footer">
-          <!--<img  class="footer_img" src="{{asset('img/JLDIAZ.png')}}" alt="JLDM | Proyectos">-->
+          <!--<img  class="footer_img" src="{{asset('img/logo.jpg')}}" alt="JLDM | Proyectos">-->
           <h2 style="color: white" class="footer_img">MUNDO TECNOLOGICO</h2>
       <p>Somos una compañía apasionada en lo que hacemos: brindar una excelente atención al cliente, asesoría
           de primera y venta de productos informáticos de altísima calidad.
