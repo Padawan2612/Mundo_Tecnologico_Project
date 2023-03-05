@@ -69,7 +69,7 @@
         <div class="nosotros_content">
             <div>
                 <h3>Nuestra Misión</h3>
-                <p>Es proporcionar a nuestros clientes los mejores accesorios para mejorar y proteger su experiencia de uso de la computadora.Además, nos enfocamos en mantenernos actualizados sobre las últimas tendencias tecnológicas para ofrecer los productos más innovadores a nuestros clientes. 
+                <p>Es proporcionar a nuestros clientes los mejores accesorios para mejorar y proteger su experiencia de uso de la computadora.Además, nos enfocamos en mantenernos actualizados sobre las últimas tendencias tecnológicas para ofrecer los productos más innovadores a nuestros clientes.
                 </p>
             </div>
         </div>
@@ -149,16 +149,16 @@
                             <i class="fab mr-2 fa-facebook"></i>
                             <a href="" target="_blank">Facebook</a>
                         </li>
-    
+
                         <li class="button_social">
                             <i class="fab mr-2 fa-whatsapp"></i>
                             <a href="https://chat.whatsapp.com/ILGPFwbdlCdBCEkP9a4G4r" target="_blank">Whatsapp</a>
                         </li>
-    
-    
+
+
                     </ul>
                 </li>
-    
+
                 <li class="features">
                     <h2>Procedimiento de Pagos</h2>
                     <ul class="box">
@@ -171,4 +171,3 @@
             </div>
     </footer>
     @endsection
-    
