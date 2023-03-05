@@ -86,9 +86,8 @@
             <aside class="main-sidebar bg-light elevation-4">
                 <!-- Brand Logo -->
                 <a href="{{ url('/') }}" class="brand-link">
-                    <img src="img/logo.jpg" alt="" class="brand-image img-circle"
-                        style="opacity: .8">
-                    <span class="brand-text font-weight-light">ADMINISTRACIÒN</span>
+                
+                    <span class="brand-text font-weight-light">ADMINISTRACIÓN</span>
                 </a>
 
                 <!-- Sidebar -->
@@ -129,6 +128,82 @@
                                     <p>Inicio</p>
                                 </a>
                             </li>
+
+                            <li class="nav-item">
+                                <a href="{{url('usuarios')}}"
+                                    class="{{ Request::path() === 'usuarios' ? 'nav-link active ' : 'nav-link' }}">
+                                    <i class="text-info  fas fa-users"></i>
+                                    <p>
+                                        Usuarios
+                                        <?php $users_count = DB::table('users')->count(); ?>
+                                        <span class="right badge badge-danger">{{ $users_count ?? '0' }}</span>
+                                    </p>
+                                </a>
+                            </li>
+
+                            <li class="nav-item admin">
+                                <a href="{{url('roles')}}"
+                                    class="{{ Request::path() === 'roles' ? 'nav-link active' : 'nav-link' }}">
+                                    <i class="text-info fas fa-user-tag"></i>
+                                    <p>
+                                        Roles    
+                                    </p>
+                                </a>
+                            </li> 
+
+                            <li class="nav-item admin">
+                                <a href="{{url('clientes/todas')}}"
+                                    class="{{ Request::path() === 'clientes/todas' ? 'nav-link active' : 'nav-link' }}">
+                                    <i class="text-info fas fa-user-friends"></i>
+                                    <p>
+                                        Clientes
+                                    </p>
+                                </a>
+                            </li>
+
+                            <li class="nav-item admin">
+                                <a href="{{url('proveedores')}}"
+                                    class="{{ Request::path() === 'proveedores' ? 'nav-link active' : 'nav-link' }}">
+                                    <i class="text-info fas fa-user-friends"></i>
+                                    <p>
+                                        Proveedores
+                                    </p>
+                                </a>
+                            </li>
+
+                            <li class="nav-item admin">
+                                <a href="{{url('ofertas/todas')}}"
+                                    class="{{ Request::path() === 'ofertas/todas' ? 'nav-link active' : 'nav-link' }}">
+                                    <i class="text-info fas fa-star"></i>
+                                    <p>
+                                        Oferta del dia
+                                    </p>
+                                </a>
+                            </li>
+
+                            <li class="nav-item admin">
+                                <a href="{{url('Categorias')}}"
+                                    class="{{ Request::path() === 'Categorias' ? 'nav-link active' : 'nav-link' }}">
+                                    <i class="text-info fas fa-shopping-bag"></i>
+                                    <p>
+                                    Categorias de Producto
+                                    </p>
+                                </a>
+                            </li>
+
+                            <li class="nav-item admin">
+                                <a href="{{url('producto')}}"
+                                    class="{{ Request::path() === 'producto' ? 'nav-link active' : 'nav-link' }}">
+                                    <i class="text-info fas fa-shopping-basket"></i>
+                                    <p>
+                                    Productos
+                                    <?php $product_count = DB::table('productos')->count(); ?>
+                                        <span class="right badge badge-danger">{{ $product_count ?? '0' }}</span>
+                                    </p>
+                                </a>
+                            </li>
+
+
 
 
                             @can('administrador')
@@ -206,6 +281,26 @@
                                 </a>
                             </li>
 
+                            <li class="nav-item admin">
+                                <a href="{{url('ofertas/todas')}}"
+                                    class="{{ Request::path() === 'ofertas/todas' ? 'nav-link active' : 'nav-link' }}">
+                                    <i class="fas fa-user-friends"></i>
+                                    <p>
+                                        Ofertas del dia
+                                    </p>
+                                </a>
+                            </li>
+
+                            <li class="nav-item admin">
+                                <a href="{{url('clientes/todas')}}"
+                                    class="{{ Request::path() === 'clientes/todas' ? 'nav-link active' : 'nav-link' }}">
+                                    <i class="fas fa-user-friends"></i>
+                                    <p>
+                                        clientes
+                                    </p>
+                                </a>
+                            </li>
+                            
 
                             @endcan 
                             @can('personal')
