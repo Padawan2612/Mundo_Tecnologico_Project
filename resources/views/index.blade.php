@@ -298,7 +298,7 @@
                         <div class="entry-content">
                           <ul>
                             <li>Número de cuenta</li>
-                            <li>******************</li>
+                            <li>2408451955</li>
 
                           </ul>
                         </div>
@@ -316,7 +316,7 @@
                         <div class="entry-content">
                           <ul>
                             <li>Número de cuenta</li>
-                            <li>*******************</li>
+                            <li> 2203479933 </li>
 
                           </ul>
                         </div>
