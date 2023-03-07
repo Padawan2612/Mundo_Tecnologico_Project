@@ -16,7 +16,7 @@
   </div><!-- /.container-fluid -->
 </div>
 <div class="container mt-5">
-    <h2>LISTA DE USUARIOS DEL SISTEMA 
+    <h2>LISTA DE USUARIOS DEL SISTEMA
       <form class="form-inline ml-3 float-right">
           <div class="input-group input-group-sm">
           <input class="form-control form-control-navbar" name="search" type="search" placeholder="Search" aria-label="Search">
@@ -31,7 +31,7 @@
         <button type="button" class="btn btn-outline-info float-right"><i class="fa fa-plus-circle"></i> Usuario</button>
       </a>
     </h2>
-    <h6> 
+    <h6>
       @if($search)
         <div class="alert alert-success" role="alert">
             El resultado de la búsqueda de <strong>'{{$search}}'</strong> son:.
@@ -70,10 +70,11 @@
       <form action="{{route('usuarios.destroy',$user->id)}}" method="POST">
         <a href="{{route('usuarios.show', $user->id)}}"><button type="button"  class="btn btn-outline-info"><i class="far fa-eye"></i></button></a>
         <a href="{{route('usuarios.edit',$user->id)}}"><button type="button" class="btn btn-outline-success"><i class="far fa-edit"></i></button></a>
-        <!--@csrf
+
+       <!-- @csrf
           @method('DELETE')
          <td> <button type="submit" class="btn btn-outline-danger">Eliminar</button>-->
-      </form>
+     
       </td>
     </tr>
     @endforeach

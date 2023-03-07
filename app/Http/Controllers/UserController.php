@@ -10,7 +10,7 @@ use App\Models\Role;
 
 class UserController extends Controller
 {
-    public function __construct() 
+    public function __construct()
     {
         $this->middleware('auth');
     }
@@ -37,7 +37,7 @@ class UserController extends Controller
     {
         $usuario = new User();
 
-        $usuario->name = request('name'); 
+        $usuario->name = request('name');
         $usuario->email = request('email');
         $usuario->celular = request('celular');
         $usuario->password = bcrypt(request('password'));
@@ -57,7 +57,7 @@ class UserController extends Controller
     public function edit($id)
     {
         $user = User::findOrFail($id);
-        $roles = Role::all(); 
+        $roles = Role::all();
         return view('usuarios.edit',['user' => $user, 'roles' => $roles]);
     }
 
@@ -67,7 +67,7 @@ class UserController extends Controller
         $usuario = User::findOrFail($id);
 
         $usuario->name = $request->get('name');
-        $usuario->email = $request->get('email'); 
+        $usuario->email = $request->get('email');
         $usuario->celular = $request->get('celular');
 
         $pass = $request->get('password');
@@ -77,7 +77,7 @@ class UserController extends Controller
             unset($usuario->password);
         }
         //modiificamos esta parte paar que actualice roles y usuarios
-        //si tiene rol actualizamos 
+        //si tiene rol actualizamos
         //si no tiene rol se le asigna uno
         $role = $usuario->roles;
         if(count($role) > 0){
