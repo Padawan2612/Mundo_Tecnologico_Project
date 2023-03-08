@@ -54,7 +54,7 @@ class ProductoController extends Controller
     {
         $producto = Productos::findOrFail($id);
 
-        $producto->categoria_id  = auth()->id();
+       
         $producto->name          = $request->get('name');
         $producto->slug          = Str::slug($request->get('name'));
         $producto->descriptions  = $request->get('descriptions');

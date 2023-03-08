@@ -1,6 +1,6 @@
 <div class="container">
     <button type="button" class="btn btn-outline-info btn-lg btn-block" data-toggle="modal" data-target="#exampleModal">
-        <i class="fa fa-plus-circle"></i> Oferta
+        <i class="fa fa-plus-circle"></i> Proveedor
     </button>
     </div>
     

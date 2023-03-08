@@ -42,7 +42,7 @@
                     <td>
                         {!! Form::open(['action' => ['CategoriasController@destroy', $categoria->id],'method' => 'DELETE']) !!}
                         {{ Form::token() }}
-                            <button class="btn btn-outline-danger" onclick="return confirm('Eliminar Registro?')">
+                            <button class="btn btn-outline-danger" onclick="return confirm('AL ELIMINAR LA CATEGORIA SE PERDERÁ LA INFORMACIÓN DE TODOS LOS PRODUCTOS EN LA BASE DE DATOS DE FORMA PERMANENTE ¿ESTAS SEGURO DE CONTINUAR?')">
                                 <i class="fas fa-eraser"></i>
                             </button>
                         {!! Form::close() !!}

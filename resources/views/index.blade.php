@@ -51,7 +51,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="hero-text">
-                        <h1 class="tipeo1">MUNDO TECNOLOGICO</h1>
+                        <h1 class="tipeo1">MUNDO TECNOLÓGICO</h1>
 
                         <h1 class="tipeo2"><span class="type"></span></h1>
                         <div class="botonesinfo">
@@ -118,7 +118,7 @@
                 <div class="text-content">
                     <h3>Ram`s</h3>
                     <hr class="style2">
-                    <h5>Los mas optimos en el mercado</h5>
+                    <h5>Los más óptimos en el mercado</h5>
                 </div>
             </div>
         </div>
@@ -128,7 +128,7 @@
                 <div class="text-content">
                     <h3>Perifericos</h3>
                     <hr class="style2">
-                    <h5>Articulos para gamers</h5>
+                    <h5>Artìculos para gamers</h5>
                 </div>
             </div>
         </div>
@@ -166,7 +166,7 @@
             <div class="content">
                 <h1>{{$proveedore->name}}</h1>
                 <hr class="">
-                <h5 style="color: white">LOS MEJORES PRODUCTOS LLEGAN A NUSTRA TIENDA GRACIAS AL APOYO DE NUSTROS PROVEEDORES.</h5>
+                <h5 style="color: white">LOS MEJORES PRODUCTOS LLEGAN A NUESTRA TIENDA GRACIAS AL APOYO DE NUESTROS PROVEEDORES.</h5>
             </div>
             <div class="img">
                 <img src="{{asset('/img/proveedore/'.$proveedore->image)}}" alt="">
@@ -179,7 +179,7 @@
 @section('title2')
 <div class="col-12">
 		<div class="testimonial-title">
-			<h5>CONOCE</h5>
+			<h5>CONÒCE</h5>
             <h3>NUESTROS PRODUCTOS</h3>
             <hr class="style1">
 	    </div>
@@ -222,7 +222,7 @@
 <footer class="footer">
     <div class="l-footer">
         <!--<img  class="footer_img" src="{{asset('img/JLDIAZ.png')}}" alt="JLDM | Proyectos">-->
-        <h2 style="color: white" class="footer_img">MUNDO TECNOLOGICO</h2>
+        <h2 style="color: white" class="footer_img">MUNDO TECNOLÒGICO</h2>
     <p>Somos una compañía apasionada en lo que hacemos: brindar una excelente atención al cliente, asesoría
         de primera y venta de productos informáticos de altísima calidad.
     </p>
@@ -253,14 +253,14 @@
                 </li>
         </ul>
         <div class="b-footer">
-            <p>Todos los Derechos reservados by <a href="" target="_blank">© 2023 MundoTecnologico.</a></p>
+            <p>Todos los Derechos reservados by <a href="" target="_blank">© 2023 MundoTecnològico.</a></p>
         </div>
 </footer>
 @endsection
 @section('title')
 <div class="col-12">
 		<div class="testimonial-title">
-			<h5>CONOCE</h5>
+			<h5>CONÒCE</h5>
             <h3>NUESTRAS CATEGORÍAS</h3>
             <hr class="style1">
 	    </div>
